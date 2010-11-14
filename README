@@ -1,0 +1,38 @@
+h1. lanyhub
+
+lanyhub is a Lua wrapper for the Anyhub API.
+
+h2. Dependencies
+
+* "Lua-cURL":http://lua-curl.luaforge.net/
+
+h2. How to install (automatically)
+
+If you're using Arch Linux, you can install the _lua-anyhub_ package from the AUR.
+If you have Luarocks, install the _anyhub_ package.
+
+h2. How to install (manually)
+
+Put the folder _anyhub_ somewhere in your Lua module path.
+On Linux/Mac this is usually something like _/usr/local/share/lua/5.1/_.
+On Windows it's _C:\Program Files\Lua\5.1\_.
+
+h2. Example
+
+require("anyhub")
+
+bc. result = anyhub.upload("/path/to/file", {username = "awesome_dude", password = "safe_password"})
+print(result.url)
+
+For a more overall example, check out examples/wizard.lua
+
+h2. License
+Creative Commons CC0 License: http://creativecommons.org/publicdomain/zero/1.0/
+
+The person who associated a work with this document has dedicated the work
+to the Commons by waiving all of his or her rights to the work worldwide
+under copyright law and all related or neighboring legal rights he or she
+had in the work, to the extent allowable by law.
+
+Works under CC0 do not require attribution. When citing the work,
+you should not imply endorsement by the author.
