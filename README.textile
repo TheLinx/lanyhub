@@ -19,9 +19,8 @@ On Windows it's _C:\Program Files\Lua\5.1\_.
 
 h2. Example
 
-require("anyhub")
-
-bc. result = anyhub.upload("/path/to/file", {username = "awesome_dude", password = "safe_password"})
+bc. require("anyhub")
+result = anyhub.upload("/path/to/file", {username = "awesome_dude", password = "safe_password"})
 print(result.url)
 
 For a more overall example, check out examples/wizard.lua
