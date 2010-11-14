@@ -27,9 +27,10 @@ print(result.url)
 For a more overall example, check out examples/wizard.lua
 
 h2. License
+
 Creative Commons CC0 License: http://creativecommons.org/publicdomain/zero/1.0/
 
-The person who associated a work with this document has dedicated the work
+bc. The person who associated a work with this document has dedicated the work
 to the Commons by waiving all of his or her rights to the work worldwide
 under copyright law and all related or neighboring legal rights he or she
 had in the work, to the extent allowable by law.
