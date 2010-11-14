@@ -9,7 +9,6 @@ h2. Dependencies
 h2. How to install (automatically)
 
 If you're using Arch Linux, you can install the _lua-anyhub_ package from the AUR.
-If you have Luarocks, install the _anyhub_ package.
 
 h2. How to install (manually)
 
